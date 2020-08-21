@@ -2,8 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import { interopDefault } from './utils'
 
-const _4d20d328 = () => interopDefault(import('..\\pages\\chat.vue' /* webpackChunkName: "pages_chat" */))
-const _6e315f9c = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */))
+const _c66117de = () => interopDefault(import('..\\pages\\chat.vue' /* webpackChunkName: "pages_chat" */))
+const _6f0ccc69 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */))
 
 Vue.use(Router)
 
@@ -81,11 +81,11 @@ export function createRouter() {
 
     routes: [{
       path: "/chat",
-      component: _4d20d328,
+      component: _c66117de,
       name: "chat"
     }, {
       path: "/",
-      component: _6e315f9c,
+      component: _6f0ccc69,
       name: "index"
     }],
 
